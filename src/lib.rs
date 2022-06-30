@@ -1,3 +1,5 @@
+//! Utilities to interact with the [`malshare`](https://malshare.com) API.
+
 use std::error::Error;
 use std::fs::File;
 use std::io::prelude::*;
