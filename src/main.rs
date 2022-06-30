@@ -48,7 +48,7 @@ async fn main() {
     // if limit is requested
     if opt.api_limit {
         match malapi::get_api_call_limit(&opt.api_key).await {
-            Err(e) => println!("Error retrieving call limit"),
+            Err(_) => println!("Error retrieving call limit"),
             Ok(limit) => println!("Daily API call limit: {}", limit),
         }
     }
