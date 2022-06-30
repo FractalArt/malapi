@@ -50,4 +50,4 @@ For more information on the usage of the library run:
 
 `malapi` is made available under the terms of either the MIT License or the Apache License 2.0, at your option.
 
-See the LICENSE-APACHE and LICENSE-MIT files for license details.
+See the [LICENSE-APACHE](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) files for license details.
